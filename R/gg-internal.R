@@ -1,6 +1,6 @@
 #Expose some required functions from the parent ggplot2 namespace
 .getFunctions <- function(){
-
+  print('hello, from getfunctions')
   #' OLD FUNCTIONS  
   #'new_panel','train_layout','train_position','train_ranges','map_position','map_layout','reset_scales','facet_render',
   #'xlabel','ylabel'
@@ -25,7 +25,7 @@
                            # 'contour_lines', ## REMOVED
                            'check_required_aesthetics','snake_class',
                            'ggname','ggplot_gtable','camelize',
-                           'element_grob.element_line','element_grob.element_rect','element_grob.element_text','element_grob.element_blank',
+                           'element_grob.element_line','element_grob.element_rect','element_grob.element_blank',
                            'plot_clone','compute_just','labelGrob',
                            'hexGrob',
                            # 'try_require', ## REMOVED
