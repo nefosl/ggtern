@@ -23,11 +23,9 @@
 #' @author Nicholas Hamilton
 #' @export
 coord_tern <- function(Tlim = NULL, Llim = NULL, Rlim = NULL, expand = TRUE){
-<<<<<<< HEAD
   print('hello, test at start of coord_tern')
-=======
   print('test at start of coord_tern')
->>>>>>> 8330db3b50913da0af9cd70814886c0ea2c69f2c
+
   rs      = CoordTern$required_scales
   ra      = CoordTern$required_aes
   mapping = sapply(rs,function(x) getOption(sprintf('tern.default.%s',x)) )
