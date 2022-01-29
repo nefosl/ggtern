@@ -280,7 +280,8 @@ ggplot_gtable.ggplot_built <- function(data) {
   tag_width <- grobWidth(tag)
   
   # whole plot annotation
-  caption <- element_render(theme, "plot.caption", plot$labels$caption, expand_y = TRUE)
+  print('hello from caption expandy')
+  caption <- element_render(theme, "plot.caption", plot$labels$caption)#, expand_y = TRUE)
   caption_height <- grobHeight(caption)
   
   pans <- plot_table$layout[grepl("^panel", plot_table$layout$name), ,
