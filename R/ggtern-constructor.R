@@ -13,8 +13,7 @@
 #' @export
 ggtern <- function(data=NULL,mapping=aes(),...,environment=parent.frame()){
   ## Suppress the warning notice of new coordinate system
-  print('hello, test at start of ggtern')
-  
+
   suppressMessages({ 
     ggplot(data = data, mapping = mapping, environment = environment, ... ) + coord_tern()  
   })

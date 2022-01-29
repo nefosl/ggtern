@@ -1,6 +1,5 @@
 #Expose some required functions from the parent ggplot2 namespace
 .getFunctions <- function(){
-  print('hello, revived grob internal')
   #' OLD FUNCTIONS  
   #'new_panel','train_layout','train_position','train_ranges','map_position','map_layout','reset_scales','facet_render',
   #'xlabel','ylabel'
